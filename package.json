@@ -2,7 +2,7 @@
   "name": "chat_bot_test",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/bobsk8/chat_bot_test#readme",
   "dependencies": {
     "botbuilder": "^3.13.1",
-    "express": "^4.16.2"    
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "express": "^4.16.2"
   }
 }
